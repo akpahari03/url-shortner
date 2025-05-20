@@ -1,9 +1,9 @@
-import { nanoid } from 'nanoid';
+import { nanoid } from "nanoid";
 import { cookieOptions } from "../config/config.js";
 import jsonwebtoken from "jsonwebtoken"
 
-export const generateNanoId = (length) => {
-    return nanoid(length)
+export const generateNanoId = (length) =>{
+    return nanoid(length);
 }
 
 export const signToken = (payload) =>{
@@ -11,6 +11,7 @@ export const signToken = (payload) =>{
 }
 
 export const verifyToken = (token) =>{
+
     const decoded = jsonwebtoken.verify(token, process.env.JWT_SECRET)
     console.log(decoded.id)
     return decoded.id
