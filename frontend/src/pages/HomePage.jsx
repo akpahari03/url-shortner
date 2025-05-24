@@ -107,7 +107,7 @@ const HomePage = () => {
             {/* Features Preview */}
             <div className={`transition-all duration-1000 delay-500 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
               <div className="mt-20">
-                <h3 className="text-3xl font-bold text-gray-800 mb-4">Why Choose LinkShrink?</h3>
+                <h3 className="text-3xl font-bold text-gray-800 mb-4">Why Choose LinkShrinkly?</h3>
                 <p className="text-gray-600 mb-12 text-lg">Everything you need to manage your links professionally</p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -209,7 +209,7 @@ const HomePage = () => {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-800 mb-2">API Access</h4>
+                      <h4 className="font-bold text-gray-800 mb-2">API Access(Coming Soon)</h4>
                       <p className="text-gray-600 text-sm">Integrate with your apps using our powerful REST API</p>
                     </div>
                   </div>
@@ -233,7 +233,7 @@ const HomePage = () => {
             <div className={`transition-all duration-1000 delay-800 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
               <div className="mt-20 p-8 bg-gradient-to-r from-blue-600/10 to-purple-600/10 backdrop-blur-sm rounded-3xl border border-blue-200/50">
                 <h2 className="text-3xl font-bold text-gray-800 mb-4">Ready to get started?</h2>
-                <p className="text-lg text-gray-600 mb-6">Join thousands of users who trust LinkShrink for their URL shortening needs</p>
+                <p className="text-lg text-gray-600 mb-6">Join thousands of users who trust LinkShrinkly for their URL shortening needs</p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   {isAuthenticated ? (
                     <Link
@@ -251,13 +251,13 @@ const HomePage = () => {
                         to="/auth"
                         className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105"
                       >
-                        Start Free Trial
+                        Start 
                         <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                         </svg>
                       </Link>
                       <button className="px-8 py-4 bg-white/80 text-gray-700 font-semibold rounded-xl border border-gray-200 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-                        View Pricing
+                        View Pricing (Coming Soon)
                       </button>
                     </>
                   )}
@@ -271,12 +271,11 @@ const HomePage = () => {
         <footer className="py-8 text-center text-gray-500">
           <div className="max-w-6xl mx-auto px-4">
             <div className="border-t border-gray-200 pt-8">
-              <p>&copy; 2024 LinkShrink. All rights reserved. Made with ❤️ for the web.</p>
+              <p>&copy; 2025 LinkShrinkly. All rights reserved. Made with ❤️ for the web.</p>
               <div className="mt-4 flex justify-center space-x-6 text-sm">
                 <a href="#" className="hover:text-gray-700 transition-colors">Privacy Policy</a>
                 <a href="#" className="hover:text-gray-700 transition-colors">Terms of Service</a>
                 <a href="#" className="hover:text-gray-700 transition-colors">Contact</a>
-                <a href="#" className="hover:text-gray-700 transition-colors">API Docs</a>
               </div>
             </div>
           </div>

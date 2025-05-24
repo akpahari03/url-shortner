@@ -66,7 +66,7 @@ const router = createRouter({
           </svg>
         </div>
         <h2 className="text-xl font-semibold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-          Loading LinkShrink...
+          Loading LinkShrinkly...
         </h2>
         <p className="text-gray-600 mt-2">Please wait while we prepare your experience</p>
       </div>

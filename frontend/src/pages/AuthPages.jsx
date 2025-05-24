@@ -88,7 +88,7 @@ const AuthPage = () => {
                         <div className="mt-12 max-w-4xl mx-auto">
                             <div className="text-center mb-8">
                                 <h3 className="text-2xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent mb-3">
-                                    Why Choose LinkShrink?
+                                    Why Choose LinkShrinkly?
                                 </h3>
                                 <p className="text-gray-600">Join thousands of users who trust us with their links</p>
                             </div>
@@ -144,7 +144,7 @@ const AuthPage = () => {
                                         ))}
                                     </div>
                                     <p className="text-gray-700 italic mb-4">
-                                        "LinkShrink has transformed how we share content. The analytics are incredibly detailed and the interface is beautiful!"
+                                        "LinkShrinkly has transformed how we share content. The analytics are incredibly detailed and the interface is beautiful!"
                                     </p>
                                     <div className="flex items-center justify-center">
                                         <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center mr-3">
@@ -163,7 +163,7 @@ const AuthPage = () => {
 
                 {/* Footer */}
                 <footer className="py-6 text-center text-gray-500 relative z-10">
-                    <p className="text-sm">&copy; 2024 LinkShrink. All rights reserved.</p>
+                    <p className="text-sm">&copy; 2024 LinkShrinkly. All rights reserved.</p>
                 </footer>
             </div>
 

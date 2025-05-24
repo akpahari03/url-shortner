@@ -112,7 +112,7 @@ const RegisterForm = ({ state }) => {
               </svg>
             </div>
             <h2 className="text-3xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent mb-2">
-              Join LinkShrink
+              Join LinkShrinkly
             </h2>
             <p className="text-gray-500">Create your account and start shortening URLs</p>
           </div>

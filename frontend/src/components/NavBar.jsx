@@ -57,7 +57,7 @@ const Navbar = () => {
                 <h1 className={`text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent ${
                   scrolled ? '' : 'text-white'
                 } transition-colors duration-300`}>
-                  LinkShrink
+                  LinkShrinkly
                 </h1>
                 <p className={`text-xs ${scrolled ? 'text-gray-500' : 'text-blue-100'} transition-colors duration-300`}>
                   Smart URL Shortener
